@@ -8,15 +8,11 @@ use App\Jobs\dataPersonJob;
 
 class DataPersonController extends Controller
 {
-    function index()
+    public function index()
     {
         $starttime = microtime(true);
 
-        // $job = new dataPersonJob();
-        // dispatch(new dataPersonJob($this));
         dispatch(new dataPersonJob());
-
-        // $this->dispatch($job);
 
         $endtime = microtime(true);
         $timediff = $endtime - $starttime;
