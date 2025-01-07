@@ -12,7 +12,7 @@ class DataPersonController extends Controller
     {
         $starttime = microtime(true);
 
-        dispatch(new dataPersonJob());
+        // dispatch(new dataPersonJob());
 
         $endtime = microtime(true);
         $timediff = $endtime - $starttime;

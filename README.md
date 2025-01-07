@@ -2,7 +2,7 @@
 
 Mengulik laravel lebih advanced lagi. <br>
 
-## Laravel Queue
+## Commit 1 - Laravel Queue
 
 Jadi intinya disini, kita akan membuat proses controller di laravel akan tampak lebih cepat dari aslinya, tetapi sebenarnya proses nya berjalan di belakang layar.<br>
 <br>
