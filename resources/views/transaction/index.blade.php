@@ -1,5 +1,8 @@
 <x-app-layout>
-    <a href="{{ route('product.index') }}" class="text-blue-500 underline">product</a>
+    <div class="flex flex-col">
+        <a href="/" class="text-blue-500 underline">home</a>
+        <a href="{{ route('product.index') }}" class="text-blue-500 underline">product</a>
+    </div>
     <h3 class="text-2xl font-bold text-center my-8">Transaction</h3>
     <div class="flex justify-end mb-4">
         <a href="{{ route('transaction.create') }}"
